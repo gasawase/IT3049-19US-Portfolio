@@ -32,6 +32,8 @@ nav{
 
 #personal{
     background-color: var(--purple-third);
+}
+#personal,#works, #languages, #achievments, #games{
     font-family: var(--main-font);
     transition: max-height 500ms ease-in-out;
 	-webkit-transition: all 200ms ease-in;
@@ -42,10 +44,23 @@ nav{
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1);
-    height: 350px;
+    height: 350px;    
 }
 
 #personal:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 99;
+}
+
+#works:hover{
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.05);
     -ms-transition: all 200ms ease-in;
@@ -67,9 +82,9 @@ nav{
 }
 
 #personal img{
-    width: 20%;
-    float: left;
-    margin: -20px 35px 150px 210px;
+    width: 50%;
+    /* margin: -20px 35px 0px 210px; */
+    margin-top: -50px;
     border-radius: 10px;
 }
 
@@ -78,3 +93,23 @@ nav{
     padding-top: 40px;
     text-align: center;
 }
+
+#works{
+    background-color: var(--light-purple-fourth);
+    font-family: var(--main-font);
+    text-align: center;
+    height: 500px;
+}
+
+#works .title{
+    margin-top: 80px;
+}
+
+#works .card{
+    border-radius: 6px;
+}
+
+#works img{
+    border-radius: 6px;
+}
+
