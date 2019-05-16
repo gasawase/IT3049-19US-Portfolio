@@ -1,0 +1,80 @@
+:root{
+    /* -variable name */
+    /* --main-font: "Bodoni MT"; */
+    --main-font: Georgia, serif;
+
+    --purple-grey-first: #585560;
+    --dark-purple-second: #302b32;
+    --purple-third: #6b516e;
+    --light-purple-fourth: #ae8aa6;
+    --light-grey: #d0cccb;
+    --main-white: #fafafa;
+    /* font-family: var(variable name) */
+}
+
+html{
+    background-color: var(--dark-purple-second);
+}
+
+nav{
+    box-shadow: 0 15px 25px -25px black;
+    font-size: 20px;
+    font-family: var(--main-font);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: var(--purple-grey-first);
+}
+
+.navbar-end{
+    margin-right: 15%;
+}
+
+#personal{
+    background-color: var(--purple-third);
+    font-family: var(--main-font);
+    transition: max-height 500ms ease-in-out;
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    height: 350px;
+}
+
+#personal:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 99;
+}
+
+#personal .title{
+    color: var(--main-white);
+}
+#personal .subtitle{
+    color: var(--main-white); 
+    margin-left: 5%;   
+}
+
+#personal img{
+    width: 20%;
+    float: left;
+    margin: -20px 35px 150px 210px;
+    border-radius: 10px;
+}
+
+#personal .container{
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
