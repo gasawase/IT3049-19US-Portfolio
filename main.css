@@ -148,6 +148,20 @@ nav{
 
 #achievements{
     font-family: var(--main-font);
+    background-color: var(--dark-purple-second);
+}
+
+#achievements:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 99;
 }
 
 #achievements .title{
@@ -160,12 +174,35 @@ nav{
 
 #games{
     background-color: var(--purple-third);
+    height: 250px;
+}
+
+#games:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 99;    
 }
 
 #games .title{
     color: var(--main-white);
+    text-align: center;
 }
 
 #games .subtitle{
     color: var(--main-white);
+    margin-left: 40px;
+}
+
+#games ul{
+    color: var(--main-white);
+    font-size: 18px;
+    margin-left: 60px;
+    list-style-type: disc; 
 }
