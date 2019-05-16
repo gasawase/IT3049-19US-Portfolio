@@ -73,6 +73,19 @@ nav{
     z-index: 99;
 }
 
+#languages:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 99;
+}
+
 #personal .title{
     color: var(--main-white);
 }
@@ -105,11 +118,31 @@ nav{
     margin-top: 80px;
 }
 
-#works .card{
+.card{
     border-radius: 6px;
 }
 
 #works img{
     border-radius: 6px;
 }
+
+#languages{
+    background-color: var(--purple-grey-first);
+}
+
+#languages{
+    color: var(--main-white);
+    height: 400px;
+}
+
+#languages ul{
+    color: var(--main-white);
+    list-style-type:disc; 
+    font-size: 15px;
+}
+
+#languages .skills-list{
+    margin-left: 0;
+}
+
 
