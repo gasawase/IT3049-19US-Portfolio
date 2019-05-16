@@ -128,11 +128,12 @@ nav{
 
 #languages{
     background-color: var(--purple-grey-first);
-}
-
-#languages{
     color: var(--main-white);
     height: 400px;
+}
+
+#languages .title{
+    color: var(--main-white);
 }
 
 #languages ul{
@@ -145,4 +146,26 @@ nav{
     margin-left: 0;
 }
 
+#achievements{
+    font-family: var(--main-font);
+}
 
+#achievements .title{
+    color: var(--main-white);
+}
+
+#achievements .subtitle{
+    color: var(--main-white);
+}
+
+#games{
+    background-color: var(--purple-third);
+}
+
+#games .title{
+    color: var(--main-white);
+}
+
+#games .subtitle{
+    color: var(--main-white);
+}
